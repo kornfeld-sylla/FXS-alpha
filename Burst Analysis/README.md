@@ -2,4 +2,6 @@ Code for analysis of the temporal dynamics of a periodic signal. A periodic sign
 
 For analysis of alpha-like oscillations in mice, the frequency range of interest is 2-10 Hz. 
 
+This code requires MATLAB and the signal processing toolbox in MATLAB. It was developed on version R2018b.
 
+To use this code, r
