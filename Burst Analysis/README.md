@@ -2,7 +2,7 @@ Code for analysis of the temporal dynamics of a periodic signal. A periodic sign
 
 This code requires MATLAB and the signal processing toolbox in MATLAB. It was developed on version R2018b. 
 
-To use this code, you can simply execute run_burst_analysis.m. To execute, you need to have all the dependencies in the path, and the data in the current folder. 
+To use this code, you can simply execute run_burst_analysis.m. To execute, you need to have all the dependencies in the path, and the data in the current folder. The run time is about 24 seconds.
 
 Two user-defined parameters are listed at the top of run_burst_analysis.m. They do not need to be adjusted for the code to execute properly, but are modifiable parameters. The first parameter indicates if the data you are analyzing is EEG or LFP (the default here is LFP). The second parameter allows you to adjust the threshold for defining a burst (default 0.9, or 90th percentile of the amplitude values). 
 
