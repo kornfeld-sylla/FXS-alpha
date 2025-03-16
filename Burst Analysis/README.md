@@ -6,4 +6,6 @@ This code requires MATLAB and the signal processing toolbox in MATLAB. It was de
 
 To use this code, execute run_burst_analysis.m with the correct user-defined parameters. Indicate if the data you are analyzing is EEG or LFP. You can adjust the threshold for defining a burst (default 0.9, or 90th percentile of the amplitude values). 
 
+To execute the code, you need to have all the dependencies in the path, and the data in the current folder.
+
 Dependencies: This code calls on the BURST_ANALYSIS.m to quantify burst count and duration based on this threshold value from the Hilbert-transformed, bandpassed amplitude signal. Code for band-passing the signal (eegfilt.m) was developed by Scott Makeig (copyright 1997) and is included in the dependencies folder for convenience. 
