@@ -2,7 +2,7 @@ Code for analysis of the 1/f fit of LFP signals from a mouse. The code uses the 
 
 This code requires MATLAB, and was developed in version R2018b. This code also calls on functions from the Chronux Toolbox for signal processing. Please download Chronux version 2.12 here: https://chronux.org/
 
-To use this code, simply execute run_improved_LFP_fit.m. To execute, you need to have all the dependencies in the path, including the Chronux code, and the data in the current folder.
+To use this code, simply execute run_improved_LFP_fit.m. To execute, you need to have all the dependencies in the path, including the Chronux code, and the data in the current folder. Run time for this code is difficult to estimate as the user must respond to prompts. 
 
 There are several user-defined parameters at the top of rum_improved_LFP_fit.m. The code will execute properly with the parameters as they are, but they are modifiable. The first parameter allows the user to indicate the length of the time series segments you would like to analyze in the frequency domain. This value must be 5 (sec) for the example data in this Github. The next parameter allows the user to indicate the frequency range over which they want to fit the 1/f, we recommend [1.5 175] (default). The accuracy of our fit comes from fitting out to 175 Hz, as there is still a lot of periodic power until about 150 Hz. The following parameter allows the user to indicate the frequency resolution they would like to have for the multi-taper power spectrum, which must be an even number greater than or equal to 2 (recommended, default). Finally, the last parameter controls the confidence interval you want for bootstrapping. Accepted values are 95 and 99. We recommend 99 (default).
 
