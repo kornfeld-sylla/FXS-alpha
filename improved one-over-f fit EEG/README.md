@@ -1,4 +1,4 @@
-Code for analysis of the 1/f fit of EEG signals from mouse and human. The code uses the same math as previously published code (SpecParam, https://fooof-tools.github.io/fooof/), namely Lorentzian Functions, but SpecParam has difficulty fitting the signal well at the lowest frequencies and between 10-20 Hz and often estimates underlying 1/f power in these regions. This code tailors the fit specifically to these troublesome regions for an improved 1/f fit.
+Code for analysis of the 1/f fit of EEG signals from mouse and human. The code uses the same math as previously published code from the Voytek Lab (SpecParam, https://fooof-tools.github.io/fooof/), namely Lorentzian Functions, but SpecParam has difficulty fitting the signal well at the lowest frequencies and between 10-20 Hz and often estimates underlying 1/f power in these regions. This code tailors the fit specifically to these troublesome regions for an improved 1/f fit.
 
 This code requires MATLAB, and was developed in version R2018b. This code also calls on functions from the Chronux Toolbox for signal processing. Please download Chronux version 2.12 here: https://chronux.org/
 
