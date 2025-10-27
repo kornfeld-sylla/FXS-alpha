@@ -81,7 +81,7 @@ for a = 1:size(ts_data,1)
     if strcmp(data_type,'EEG') == 1
         band_edges = [3 8];
         %for freely-moving data, use narrower band edges of 3 and 8 Hz
-        %because data is noisier
+        %because data has steeper aperioic slope over the range of periodic pk1
     else
         band_edges = [2 10];
         %for head-fixed data, use band edges that capture the range of
@@ -169,3 +169,4 @@ scatter(gosh,WT_mean_burst_length);
 hold off
 [pp,~,stats] = ranksum(FX_mean_burst_length,WT_mean_burst_length)
 effect_size = meanEffectSize(FX_mean_burst_length,WT_mean_burst_length,Paired=false,Effect="cliff",Alpha=0.01) 
+
