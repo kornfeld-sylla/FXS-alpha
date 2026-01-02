@@ -1,4 +1,4 @@
 # FXS-alpha
-Repository for the code used in "A human electrophysiological signature of Fragile X Syndrome is shared in V1 of Fmr1 KO mice." The code generates an improved 1/f fit of power spectra from human and mouse EEG/LFP data to show conserved disruptions of "alpha" periodic activity across species in FXS.
+Repository for the code used in "A human electrophysiological signature of Fragile X pathophysiology is shared in V1 of Fmr1-/y mice." The code generates an improved 1/f fit of power spectra from human and mouse EEG/LFP data to show conserved disruptions of alpha (in humans) and alpha-like (in mice) periodic activity across species in FXS.
 
 All code runs in MATLAB and was developed and written by Dr. Sara Kornfeld-Sylla while in the Bear Lab at MIT.
